@@ -1,0 +1,1210 @@
+/*INICIO-- TITULO Y LOGO INICIO Y PIE DE PAGINA*/
+#caja1-rol-titulo{
+  background-color: black;
+  padding: 20px;
+  }
+#tit1-rol{
+  font-size: 50px;
+  font-family: Castellar;
+  color: white;
+}
+#tit2-rol{
+  font-size: 25px;
+  font-family:AMGDT_IV50;
+  color: white;
+}
+.cajapie-rol{
+	background-color: #000000;
+	font-family: Microsoft YaHei UI Light;
+}
+.tit1pie-rol{
+	color: rgb(255, 255, 255);
+}
+.foto-ini-rol{
+  background: url(../img/calculator-385506.jpg) fixed; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+.foto-ini-rol-1{
+  background: url(../../img/calculator-385506.jpg) fixed; 
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*FIN-- TITULO Y LOGO INICIO Y PIE DE PAGINA*/
+
+/* INICIO NAVEGADOR*/
+
+nav ul li {
+  padding: 4px;
+  border-bottom: 2px solid transparent;
+  border-top: 2px solid transparent;
+}
+nav ul li:hover {
+  /*background: rgba(130,130,130,0.8);/*#1DA41E
+  
+  /*transition: 1.5s; 
+  border-radius: 15px;
+  */
+  border-top: 2px solid #1DA41E;
+  border-bottom: 2px solid #1DA41E;
+  transition: 0.5s;
+}
+
+/*FIN NAVEGADOR*/
+
+/*INICIO VISTA*/
+
+.caja1-rol{
+	background: rgba(255,255,255);
+}
+
+.caja2-tra{
+	font-family: Microsoft YaHei UI Light;
+	font-size: 20px;
+	border:1px solid black;
+	padding: 5px;
+}
+/*FIN VISTA*/
+
+
+/*INICIO ESTILOS DE LA TABLA*/
+
+table {
+    border-collapse: collapse;
+    width: 95%;
+    text-align: center;
+}
+.th1 {
+    background-color: black;
+    color: white;
+    padding: 12px;
+}
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #e0e0e0;}
+
+.pedido_tabla{
+  background: black;
+  color: white;
+  padding: 10px;
+  width: 160px;
+  text-align: center;
+  font-size: 25px;
+  font-family: Microsoft YaHei UI Light;
+}
+/*
+.eliminar{
+  font-family: AMGDT_IV50;
+  font-size: 15px;
+  background: #1991cd;
+  border: 1px solid #E63838;
+  height: 30px;
+  width: 120px;
+  color: white;
+}
+.eliminar:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}*/
+
+.btn-actualizar{
+  font-family: Microsoft YaHei UI Light;
+  background: rgb(255,255,255);
+  border: 1px solid black;
+  color: black;
+  padding: 3px;
+}
+.btn-actualizar:hover{
+  background: rgb(0,0,0);
+  color: white;
+  text-decoration: none;
+}
+
+.boton3-ini{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 50px;
+  width: 110px;
+  color: white;
+  margin-bottom: 10px;
+}
+.boton3-ini:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+
+.boton3-ini-nue{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 50px;
+  width: 110px;
+  color: white;
+}
+.boton3-ini-nue:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+
+.caja-actualizar{
+  margin-left: 20px;
+}
+
+.caja-actualizar-cli{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 20px;
+}
+
+.caja-actualizar-cli-2{
+  font-size: 25px;
+}
+
+.btn-act-todo{
+  font-family: Microsoft YaHei UI Light;
+  background: rgb(255,255,255);
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+  width: 170px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 250px;
+}
+.btn-act-todo:hover{
+  background: rgb(200,200,200);
+  transition: 1s; 
+}
+.btn-act-todo-1{
+  font-family: Microsoft YaHei UI Light;
+  background: rgb(255,255,255);
+  border: 1px solid black;
+  color: black;
+  font-size: 18px;
+  width: 130px;
+  height: 50px;
+  border-radius: 50px;
+  margin-left: 270px;
+}
+.btn-act-todo-1:hover{
+  background: rgb(200,200,200);
+  transition: 1s; 
+}
+i{
+  width: 24px;
+  height: 24px;
+}
+.msg_error{
+  color: #e65656;
+}
+.alert{
+  width: 250px;
+  background: #66e07d66;
+  border-radius: 6px;
+  margin: 20px auto;
+  text-align: center;
+  font-family: Microsoft YaHei UI Light;
+  font-weight: bold;
+}
+.alert p{
+  padding: 10px;
+}
+.notItemOne option:first-child{
+  display: none;
+}/*
+.listado{
+  color: black;
+  font-size: 20px;
+  font-family: Microsoft YaHei UI Light;
+  text-decoration-line: underline;
+}*/
+.listado2{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+}
+.listado1{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+}
+.listado3{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+  text-align: center;
+}
+.titulo_modal{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.boton-insertar{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.boton-insertar-anular{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #9bc34c;
+  border: 1px solid #9bc34c;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.boton-insertar:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+.boton-insertar2{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #dd5347;
+  border: 1px solid #dd5347;
+  height: 40px;
+  width: 100px;
+  color: white;
+  border-radius: 2px;
+}
+.boton-insertar2:hover{
+  color: white;
+  text-decoration: none;
+  background: #D3493D;
+}
+/*INICIO ESTILOS PAGINADOR*/
+.paginador ul{
+  padding: 15px;
+  list-style: none;
+  background: white;
+  margin-top: 15px;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.paginador a, .pageSelected{
+  color: #428bca;
+  border: 1px solid #ddd;
+  padding: 5px;
+  display: inline-block;
+  font-size: 14px;
+  text-align: center;
+  width: 35px;
+}
+.paginador a:hover{
+  background: #ddd;
+  text-decoration-line: none;
+}
+.pageSelected{
+  color: #fff;
+  background: #428bca;
+  border: 1px solid #428bca;
+}
+/*FIN ESTILOS PAGINADOR*/
+
+/*INICIO ESTILOS DE BUSCAR*/
+.form_search{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  float: right;
+  background: initial;
+  padding: 10px;
+  border-radius: 10px;
+}
+.form_search .btn_search{
+  background: green;
+  color: #fff;
+  padding: 0 20px;
+  border: 0;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.boton3-ini-nuevo{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 40px;
+  width: 98px;
+  color: white;
+  margin-bottom: 10px;
+}
+.boton3-ini-nuevo:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+.boton-insertar2-tipo{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #dd5347;
+  border: 1px solid #dd5347;
+  height: 40px;
+  width: 98px;
+  color: white;
+  margin-right: 15px;
+}
+.boton-insertar2-tipo:hover{
+  color: white;
+  text-decoration: none;
+  background: #D3493D;
+}
+.boton-insertar2-tipo-egreso{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #e2ae19;
+  border: 1px solid #e2ae19;
+  height: 40px;
+  width: 120px;
+  color: black;
+  margin-right: 15px;
+}
+.boton-insertar2-tipo-egreso:hover{
+  color: black;
+  text-decoration: none;
+  background: #d39f0b;
+  border: 1px solid #d39f0b;
+}
+.boton-insertar2-tipo-egreso2{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #e2ae19;
+  border: 1px solid #e2ae19;
+  height: 40px;
+  width: 140px;
+  color: black;
+  margin-right: 15px;
+}
+.boton-insertar2-tipo-egreso2:hover{
+  color: black;
+  text-decoration: none;
+  background: #d39f0b;
+  border: 1px solid #d39f0b;
+}
+.boton-insertar2-tipo-producto{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #e2ae19;
+  border: 1px solid #e2ae19;
+  height: 40px;
+  width: 220px;
+  color: black;
+  margin-right: 15px;
+}
+.boton-insertar2-tipo-producto:hover{
+  color: black;
+  text-decoration: none;
+  background: #d39f0b;
+  border: 1px solid #d39f0b;
+}
+.margen_insertar_producto{
+  margin-top: 10px;
+  transition: 1s;
+}
+.margen_insertar_producto:hover{
+  box-shadow: 0.5px 0.5px 2px 0.5px black;
+  transition: 1s;
+}
+.producto_estilos{
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Microsoft YaHei UI Light;
+}
+.margen_insertar_imagen{
+  padding-top: 15px;
+  margin-top: 10px;
+  transition: 1s;
+  border-right: 1px solid rgb(200,200,200);
+}
+.margen_insertar_imagen:hover{
+  box-shadow: 0.5px 0.5px 2px 0px black;
+  transition: 1s;
+}
+.linea-producto{
+  background: rgb(200,200,200);
+}
+.detalle-producto{
+  font-size: 18px;
+  border-bottom: 2px solid #1DA41E;
+  margin-left: 15px;
+  margin-top: 15px;
+  padding-top: 10px;
+  text-align: center;
+  background: #e4e4e4;
+
+}
+.imagen-producto{
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 2px solid #1DA41E;
+  background: #e4e4e4;
+  padding-top: 10px;
+
+}
+
+.mover-producto{
+  margin-top: 20px;
+}
+.estilos-imagen{
+  margin-top: 20px;
+
+}
+/*FIN ESTILOS DE BUSCAR*/
+
+
+/*inicio imagen*/
+
+.prevPhoto {
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    height: 150px;
+    border: 1px solid #CCC;
+    position: relative;
+    cursor: pointer;
+    background: url(../images/uploads/user.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    margin: auto;
+}
+.prevPhoto label{
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+.prevPhoto img{
+  width: 100%;
+  height: 100%;
+}
+.upimg, .notBlock{
+  display: none !important;
+}
+.errorArchivo{
+  font-size: 16px;
+  font-family: arial;
+  color: #cc0000;
+  text-align: center;
+  font-weight: bold; 
+  margin-top: 10px;
+}
+.delPhoto{
+  color: #FFF;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background: red;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  z-index: 10;
+}
+#tbl_list_productos img{
+  width: 50px;
+}
+.imgProductoDelete{
+  width: 175px;
+}
+
+/*fin imagen*/
+/*inicio estilos boton clic*/
+
+.boton-clic{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 14px;
+  background: #f9dcdc;
+  padding: 5px;
+  border-radius: 5px;
+}
+/*fin estilos boton clic*/
+
+
+/* INICIO imagen productos*/
+.img_producto img{
+  width: 80px;
+  height: auto;
+  margin: auto;
+}
+/* FIN imagen productos*/
+
+
+/*boton vehiculo*/
+
+.boton-insertar2-vehiculo{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #e2ae19;
+  border: 1px solid #e2ae19;
+  height: 40px;
+  width: 130px;
+  color: black;
+  margin-right: 15px;
+}
+.boton-insertar2-vehiculo:hover{
+  color: black;
+  text-decoration: none;
+  background: #d39f0b;
+  border: 1px solid #d39f0b;
+}
+
+/*fin boton vehiculo*/
+
+/*boton maquinaria*/
+
+.boton-insertar2-maquinaria{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 17px;
+  background: #e2ae19;
+  border: 1px solid #e2ae19;
+  height: 40px;
+  width: 160px;
+  color: black;
+  margin-right: 15px;
+}
+.boton-insertar2-maquinaria:hover{
+  color: black;
+  text-decoration: none;
+  background: #d39f0b;
+  border: 1px solid #d39f0b;
+}
+
+/*fin boton maquinaria*/
+
+/*titulo maquinaria*/
+
+.listado1_man{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+/*fin titulo maquinaria*/
+
+
+/*titulo reportes inventario*/
+
+.titu-inven{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 22px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+/*fin titulo reportes inventario*/
+
+/*fila reportes*/
+.tamaño_fila{
+  text-align: left;
+  padding: 25px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+}
+.tamaño_fila1{
+  background-color: black;
+  color: white;
+  padding: 15px;
+}
+.tamaño_fila-exi{
+  text-align: left;
+  padding: 25px;
+  border-bottom: 1px solid #ddd;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+/*inicio reportes*/
+
+/*boton configuracion personal*/
+
+.configurar{
+  background: red;
+}
+
+/*fon boton configuracion personal*/
+
+
+/*============ Ventas ============*/
+.datos_cliente, .datos_venta, .title_page{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+#detalle_venta tr{
+  background-color: #FFF !important;
+}
+#detalle_venta td{
+  border-bottom: 1px solid #CCC;
+}
+.datos{
+  background-color: #e3ecef;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    border: 2px solid #78909C;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.action_cliente{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  align-items: center;
+}
+
+.datos label{
+  margin: 5px auto;
+}
+.wd20{
+  width: 20%;
+}
+.wd25{
+  width: 25%;
+}
+.wd30{
+  width: 30%;
+}
+.wd40{
+  width: 40%;
+}
+.wd60{
+  width: 60%;
+}
+.wd100{
+  width: 100%;
+}
+#div_registro_cliente, #add_product_venta{
+  display: none;
+}
+#add_product_pedido{
+  display: none;
+}
+.displayN{
+  display: none;
+}
+.tbl_venta{
+  max-width: 900px;
+  margin: auto;
+}
+.tbl_venta tfoot td{
+  font-weight: bold;
+}
+.textright{
+  text-align: right;
+}
+.textcenter{
+  text-align: center;
+}
+.textleft{
+  text-align: left;
+}
+.btn_anular{
+  background-color: #f36a6a;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 3px;
+  color: #FFF;
+}
+/*boton salir*/
+/*
+.borde_boton_salir{
+  border: 1px solid rgb(140,140,140);
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.borde_boton_salir:hover{
+  border: 1px solid white;
+  background: rgba(0,0,0,0.3);
+}*/
+.dropdown-menu{
+  background: black;
+}
+.dropdown-item:hover{
+  background: rgb(80,80,80);
+}
+/*fin boton salir*/
+
+
+.caja-actualizar-configuracion{
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 20px;
+
+}
+.cambiardatos{
+  margin-top: 10px;
+  font-size: 18px;
+  font-family: Microsoft YaHei UI Light;
+}
+/*estado del trabajador*/
+.estado1{
+  background: #9bc34c;
+  text-align: center;
+  padding-left: 6px;
+  padding-right:  6px;
+  padding-top:  3px;
+  padding-bottom:  3px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.estado2{
+  background: #d55737;
+  text-align: center;
+  padding-left: 6px;
+  padding-right:  6px;
+  padding-top:  2px;
+  padding-bottom:  2px;
+  border-radius: 3px;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.estado11{
+  background: #9bc34c;
+  text-align: center;
+  padding-left: 6px;
+  padding-right:  6px;
+  padding-top:  3px;
+  padding-bottom:  3px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+.estado22{
+  background: #d55737;
+  text-align: center;
+  padding-left: 6px;
+  padding-right:  6px;
+  padding-top:  2px;
+  padding-bottom:  2px;
+  border-radius: 3px;
+  font-size: 16px;
+}
+/*fin estado del trabajador*/
+
+
+.datospersonales{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 18px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+
+
+
+
+/*hover lineas horizontales
+h4 { display:inline-block; margin:0;text-transform:uppercase; }
+h4:after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #019fb6;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+h4:hover:after { transform: scaleX(1); }
+h4.fromRight:hover{ transform-origin:100% 50%; }
+h4.fromLeft:after{  transform-origin:  0% 50%; }
+
+.fromRight{
+  font-size: 10px;
+} 
+fin hover lineas horizontales*/
+
+
+
+.datos_personales{
+  padding: 40px;
+  border-left: 1px solid #d3d3d3;
+  border-right: 1px solid #d3d3d3;
+}
+.datos_personales:hover{
+  background: #f4f4f4;
+}
+.tabla_datos{
+  font-size: 17px;
+  font-family: Microsoft YaHei UI Light;
+  margin-left:20px;
+  padding-top: 13px;
+  border-bottom: 1px solid rgba(150,150,150,0.5);
+}
+.tabla_datos:hover{
+  border-bottom: 1px solid black;
+  transition: 0.3s;
+}
+
+
+/*BOTON DE ACTUALIZAR DATOS*/
+.boton_actualizar_datos{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 40px;
+  width: 130px;
+  color: white;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.boton_actualizar_datos:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+.boton_actualizar_contrasena{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #61b737;
+  border: 1px solid #61b737;
+  height: 40px;
+  width: 145px;
+  color: white;
+  border-radius: 2px;
+  margin-right: 3px;
+}
+.boton_actualizar_contrasena:hover{
+  color: white;
+  text-decoration: none;
+  background: #539e2f;
+}
+/*FIN BOTON DE ACTUALIZAR DATOS*/
+
+/*titulo inicio*/
+
+.titulos_ventas_inicio{
+  font-size: 25px;
+  font-family: Microsoft YaHei UI Light;
+  text-align: center;
+}
+
+.promedio_anual{
+  padding: 20px;
+  font-size: 15px;
+}
+.promedio_anual_valor{
+  padding: 20px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.promedio_ventas_inicio{
+  font-size: 25px;
+  font-family: Microsoft YaHei UI Light;
+}
+.centrar_cantidad{
+  text-align: center;
+}
+.th11 {
+    background-color: rgb(20,20,20);
+    color: white;
+    padding: 12px;
+}
+.total_inicio{
+  text-align: end;
+  font-weight: bold;
+  font-size: 16px;
+}
+.total_inicio2{
+  text-align: end;
+  font-weight: bold;
+  font-size: 17px;
+}
+.total_inicio_numero{
+  font-weight: bold;
+  font-size: 16px; 
+}
+.total_inicio_numero2{
+  font-weight: bold;
+  font-size: 17px; 
+}
+.tabla_inicio{
+  margin-bottom: 100px;
+}
+.tabla_inicio1{
+  margin-bottom: 30px;
+}
+/*fin titulo inicio*/
+
+/*inicio de sesion fondo*/
+
+.foto_ini_sesion{
+  background: url(../img/calculator-385506.jpg) fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fondo_ini_sesion_2{
+  background: rgba(240,240,240);
+  width: 480px;
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(200,200,200);
+}
+.fondo_ini_sesion_3{
+  background: rgba(240,240,240);
+  width: 480px;
+  height: 520px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid rgb(200,200,200);
+}
+.texto_sesion{
+  font-size: 18px;
+
+}
+.boton3-ini{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  height: 50px;
+  width: 150px;
+  color: white;
+  border-radius: 5px;
+}
+.boton3-ini:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+.boton_inicio_sesion{
+  margin-left: auto;
+  margin-right: auto;
+}
+/*fin inicio de sesion fondo*/
+/*deudores*/
+.btn-actualizar_1{
+  font-family: Microsoft YaHei UI Light;
+  background: #e2ae19;
+  border: 2px solid #d39f0b;
+  color: black;
+  padding: 4px;
+}
+.btn-actualizar_1:hover{
+  background: #d39f0b;
+  border: 2px solid #d39f0b;
+  color: black;
+  text-decoration: none;
+}
+/*fin deudores*/
+
+/*ventas*/
+.espacio_buscar{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.espacio_buscar1{
+  margin-left: 10px;
+}
+.espacio_tabla_ventas{
+  margin-bottom: 50px;
+  margin-top: 20px;
+}
+.estilo_sesion{
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  color: #721c24;
+  background: #f8d7da;
+  border:1px solid #f5c6cb;
+  text-align: center;
+}
+.btn_ver_fac{
+  font-family: Microsoft YaHei UI Light;
+  background: #2b8ab9;
+  border: 2px solid #2b7aa2;
+  color: white;
+  padding: 3px;
+}
+.btn_ver_fac:hover{
+  background: #2b7aa2;
+  color: white;
+  text-decoration: none;
+}
+.btn_anular_fac{
+  font-family: Microsoft YaHei UI Light;
+  background: #d55737;
+  border: 2px solid #bd5034;
+  color: rgb(240,240,240);
+  padding: 3px;
+}
+.btn_anular_fac:hover{
+  background: #bd5034;
+  color: white;
+  text-decoration: none;
+}
+.btn_anular_fac1{
+  font-family: Microsoft YaHei UI Light;
+  background: rgb(150,150,150);
+  border: 2px solid rgb(150,150,150);
+  color: rgb(220,220,220);
+  padding: 3px;
+}
+.btn_anular_fac1:hover{
+  text-decoration: none;
+  color: rgb(210,210,210);
+}
+.datos_cliente_venta{
+  font-family: Microsoft YaHei UI Light;
+  font-size: 19px;
+  font-weight: bold;
+}
+.estilos_boton_new_cli{
+  background: #3782a8;
+  padding: 9px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.estilos_boton_new_cli:hover{
+  background: #3a7695;
+  text-decoration: none;
+  color: white;
+  border-radius: 0px;
+  transition: 0.3s;
+}
+.datos1{
+  padding: 20px;
+  border: 1px solid rgb(73,185,222);
+  background: rgb(250,255,255);
+}
+.datos2{
+  padding: 20px;
+}
+.boton_guardar{
+  background: #1991cd;
+  border: 1px solid #1991cd;
+  color: white;
+  width: 110px;
+  height: 35px;
+  font-family: Microsoft YaHei UI Light;
+  border-radius: 5px;
+}
+.boton_guardar:hover{
+  color: white;
+  text-decoration: none;
+  background: #0b85c2;
+}
+.color_boton_anular{
+  background: #d55737;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.color_boton_anular:hover{
+  background: #d55737;
+  color: white;
+  text-decoration: none;
+}
+.color_boton_procesar{
+  background: #1991cd;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.color_boton_procesar:hover{
+  background: #1991cd;
+  color: white;
+  text-decoration: none;
+}
+.color_boton_agregar{
+  color: rgb(53,175,50);
+  font-size: 14px;
+}
+.color_boton_agregar:hover{
+  color: rgb(43,165,40);
+  text-decoration: none;
+}
+.imprimir{
+  background: #0d99a4;
+  margin-top: 20px;
+  padding: 5px;
+  color: white;
+  font-size: 16px;
+  border: 0px solid #0d99a4;
+}
+.imprimir:hover{
+  text-decoration: none;
+  color: white;
+}
+.th12 {
+    background-color: rgb(20,127,86);
+    color: white;
+    padding: 12px;
+}
+.th13 {
+    background-color: rgb(42,72,112);
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+.mover_inf_proveedor{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.color_anular_fac{
+  color: rgb(34,106,75);
+  font-size: 30px;
+  font-family: Berlin Sans FB;
+}
+.texto_anular{
+  font-size: 18px;
+  text-align: center;
+  font-family: Calibri Light;
+  padding-bottom: 40px;
+}
+/*fin ventas*/
+/*FIN ESTILOS DE LA TABLA*/
